@@ -3,11 +3,11 @@
 * {
   margin: 0;
   font-family: "Urbanist";
-  color: rgb(248, 90, 90);
+  color: #0D0D0D;
 }
 
 .navbar {
-  padding: 100px;
+  padding: 50px;
   display: flex;
   align-items: center;
   max-width: 1200px;
@@ -15,15 +15,20 @@
   border-bottom: 1px solid #f2f2f2;
   position: sticky;
   top: 0;
-  background-image: url("background-image.jpg");
+  /* background-image: url("https://i.pinimg.com/736x/45/7b/29/457b29e2df69c76982fe2e48e4e9a2b8--granite-samples-granite-countertops.jpg"); */
+  /* background-color:#917CA6; */
+  background: rgb(145,124,166);
+background: linear-gradient(90deg, rgba(145,124,166,1) 0%, rgba(112,92,133,1) 100%);
+  color: #D8F2D9;
 }
 
 .navbar h1 {
-  color: rgb(255, 130, 130);
+  font-size: 40px;
   text-align: center;
+  color: #D8F2D9;
 }
 
-.navbar .links {
+.links {
   margin-left: auto;
 }
 
@@ -32,6 +37,8 @@
   margin-left: 2px;
   text-decoration: none;
   padding: 6px;
+  color: #D8F2D9;
+  
   /* border: 2px solid black; */
 }
 
@@ -49,11 +56,15 @@
 
 .home {
   margin: 0 auto; 
-  display: flex;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
 }
 
-/* .home h1 {
-  
-} */
+.contact {
+  display: flex;
+  flex-direction: column;
+}
 
