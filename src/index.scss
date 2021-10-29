@@ -46,17 +46,17 @@ body{
   margin-left: auto;
 }
 
-.navbar a {
+.navbar button {
   font-size: 25px;
   margin-left: 2px;
   text-decoration: none;
   padding: 6px;
   /* color: #D8F2D9; */
   
-  /* border: 2px solid black; */
+  border: none;
 }
 
-.navbar a:hover {
+.navbar button:hover {
   text-shadow: 2px 2px 1px $yellow;
 }
 
