@@ -1,23 +1,19 @@
 import { useState } from 'react';
-import CV from './CV';
+import Resume from './Resume';
 
 
 
 const Home = () => {
-    
-    const[jobs, setJobs] = useState([
-        {title: 'Job 1', description: 'Job desctription', id: 1},
-        {title: 'CBMFF', description: 'bruh', id: 2}
-    ]);
-
-    
 
     return ( 
         <div className="home">
-            <h1>Home</h1>
-            {/* <button onClick={handleClick}>Click Me</button> */}
-            
-            
+            <div className="FirstContainer">
+                <h1>Hello!</h1>
+                <p className = 'bodyText'>Esse laborum fugiat pariatur elit cillum id elit tempor dolore velit amet in ipsum voluptate. Qui pariatur voluptate minim eu proident incididunt. Lorem culpa reprehenderit pariatur minim amet fugiat sit incididunt exercitation ex id commodo aliqua reprehenderit. Quis mollit id laborum laborum ea labore aliquip. Aute esse pariatur commodo amet. Velit proident cillum aliquip labore elit dolore irure adipisicing culpa veniam pariatur consequat. Eu proident id laborum tempor ad.</p>
+            </div>   
+            <div className="containter">
+                
+            </div>         
         </div>
      );
 }

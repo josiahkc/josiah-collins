@@ -52,8 +52,8 @@ body{
   margin-left: 2px;
   text-decoration: none;
   padding: 6px;
-  /* color: #D8F2D9; */
-  
+  border: none;
+  background: none;
   /* border: 2px solid black; */
 }
 
@@ -97,4 +97,12 @@ body{
 
 .description {
   text-align: justify;
+}
+
+.bodyText {
+  text-align: justify;
+}
+
+.jobOutline {
+  margin: 20px auto;
 }
