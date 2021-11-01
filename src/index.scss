@@ -5,6 +5,7 @@ $light: #DDD;
 $dark-blue: #2C37BF;
 $light-blue: #596CD9;
 $yellow: #F2C063;
+$noBorder: border
 
 * {
   margin: 0;
@@ -53,7 +54,7 @@ body{
   padding: 6px;
   /* color: #D8F2D9; */
   
-  border: none;
+  /* border: 2px solid black; */
 }
 
 .navbar button:hover {
