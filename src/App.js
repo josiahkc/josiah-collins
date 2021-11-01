@@ -31,6 +31,7 @@ function App() {
        { (activePage == 'Projects') && <Projects /> }
        { (activePage == 'Resume') && <Resume /> }
        { (activePage == 'Contact') && <Contact />}
+       <p> Bruh</p>
       </div>
     </div> 
   );
